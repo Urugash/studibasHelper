@@ -1,0 +1,29 @@
+{
+  "name": "studibas_helper",
+  "version": "1.0.0",
+  "description": "Helper pour la gestion de l'incubateur Studibas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urugash/studibasHelper.git"
+  },
+  "author": "Jonas ten Cate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urugash/studibasHelper/issues"
+  },
+  "homepage": "https://github.com/Urugash/studibasHelper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
