@@ -51,7 +51,7 @@ router.get('/fakeHackNPlanWebHook', (request, response) => {
         isStory: true
     }
     try {
-       const axiosResponse = axios.post("http://localhost:8080/taskCreated", data);
+       const axiosResponse = axios.post("https://n8n-otarcy.herokuapp.com/fakeHackNPlanWebHook", data);
        console.log('Request réussite');
        response.send('youhou');
     } catch (error) {
